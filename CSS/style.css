@@ -1,0 +1,166 @@
+/* RESET */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Globales */
+body {
+  background-color: #ffffff;
+  width: 100%;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+
+h1{
+  display: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+/* ________________Header */
+
+header{
+  background-color: #222222;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+nav{
+  height: 19px;
+  width: 300px;
+  margin-right: 20px;
+}
+
+nav ul{
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav a{
+  color: #f3f3f3;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+}
+
+/* ________________Main */
+/* _______Delivery */
+
+main{
+  height: auto;
+  min-height: 500px;
+  width: 100%;
+  background-color: #e5e5e5;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 35px auto;
+}
+
+main section {
+  border-radius: 5px;
+  margin: 15px 0;
+}
+
+main h2{
+  color: #fc200c;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  text-align: center;
+}
+
+main h2 span{
+  color: #ffffff;
+}
+
+#seccion-delivery{
+  background-image: url(../IMG/Image20230308204411.png);
+  height: 350px;
+  width: 490px;
+  padding-top: 20px;
+}
+
+/* _______Podio */
+
+#seccion-podio{
+  background-color: #ffffff;
+  height: 350px;
+  width: 490px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+#seccion-podio article{
+  height: 250px;
+  width: 385px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#seccion-podio article ol{
+  color: #222222;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  margin: 20px 0 0 0;
+}
+
+#seccion-podio article li{
+  margin-bottom: 10px;
+}
+
+#top{
+  margin-left: 35px;
+}
+
+
+/* _______________Footer */
+
+footer{
+  background-color: #222222;
+  height: 150px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+footer nav{
+  height: 112px;
+  width: 90px;
+  margin-left: 20px;
+}
+
+footer nav ul{
+  height: 112px;
+  width: 90px;
+  text-transform: capitalize;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content:space-between;
+}
+
+footer img{
+  margin-right: 42px;
+}
+
